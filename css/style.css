@@ -91,15 +91,25 @@ footer {
 
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-
-	& > #logo-bool{
+	& > .sidebar-item{
 		width:100%;
-		border-radius: 25px;
-		border: 1px solid white;
+		margin: 0.5rem;
+		text-align: center;
+
+		& > #logo-bool{
+			width:100%;
+			border-radius: 25px;
+			border: 1px solid white;
+		}
+
 	}
+	 
 }
 
 /* ---------------------
