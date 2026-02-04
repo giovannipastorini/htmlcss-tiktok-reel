@@ -38,7 +38,7 @@
         <ul id="header-nav">
           <li><a href="">Esplora</a></li>
           <li><a href="">Seguiti</a></li>
-          <li><a href="">Per te</a></li>
+          <li><a href="" class="active">Per te</a></li>
         </ul>        
       </nav>  
       <i class="bi bi-search icon-color">
@@ -47,10 +47,12 @@
 
     <!-- Sidebar -->
     <div class="sidebar icon-color">
-      <div class="sidebar-item">
+      <div class="sidebar-item logo">
         <img id="logo-bool" src="./assets/img/boolean_logo.png" alt="">
+        <div id="plus-icon-logo">
+        +
       </div>
-
+      </div>
        <div class="sidebar-item">
         <i class="bi bi-heart-fill"></i>
         <div class="icon-txt">
@@ -92,7 +94,7 @@
       </div>
       <nav class="nav-footer">
         <div class="nav-footer-item"> 
-          <a href="#">
+          <a href="#" class="active">
               <i class="bi bi-house-fill"></i>
             <div class="icon-text">
               Home
@@ -114,8 +116,11 @@
             </div>
           </button>
         </div>
-        <div class="nav-footer-item"> 
+        <div class="nav-footer-item" id="icon-chat-container"> 
           <a href="#">
+              <div id="chat-counter">
+                19
+              </div>
               <i class="bi bi-chat-square"></i>
             <div class="icon-text">
               Posta in arrivo
