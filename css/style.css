@@ -89,10 +89,14 @@ footer {
 
 	.nav-footer-item{
 		padding: 1rem;
+		text-align: center;
 
 		#nav-footer-btn{
-			padding: 1rem 1.5rem;
-
+			padding: 0.5rem 1.25rem;
+			border-radius: 0.5rem;
+			border-style: none;
+			border-left: 2px solid cyan;
+			border-right: 2px solid fuchsia;
 		}
 	}
 
@@ -131,6 +135,10 @@ footer {
 		width:100%;
 		margin: 0.5rem;
 
+		.icon-txt{
+			font-size: 10px;
+		}
+
 		i{
 			/*  
 			font-size: 44px;
@@ -157,7 +165,15 @@ footer {
 }
 
 .reel-description{
+	/* 
 	border: 2px dashed red;
+	 */
+	width: 428.8px;
+	padding-left: 1rem;
+
+	div{
+		margin-bottom: 0.75rem;
+	}
 }
 
 /* ---------------------
