@@ -80,9 +80,37 @@ footer {
 	le tue regole, se necessario. */
 }
 
+.nav-footer{
+	background-color: black;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	.nav-footer-item{
+		padding: 1rem;
+
+		#nav-footer-btn{
+			padding: 1rem 1.5rem;
+
+		}
+	}
+
+	a{
+		text-decoration: none;
+		color:white;
+
+		div.icon-text{
+			font-size: 10px;
+		}
+	}
+}
+
 /* Sidebar */
 .sidebar {
+	 
 	padding: 0 16px;
+	
 	position: absolute;
 	right: 0;
 	top: 40%;
@@ -93,6 +121,8 @@ footer {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+
+	text-align: center;
 	
 
 	/* Inserisci qui sotto 
@@ -100,7 +130,21 @@ footer {
 	& > .sidebar-item{
 		width:100%;
 		margin: 0.5rem;
-		text-align: center;
+
+		i{
+			/*  
+			font-size: 44px;
+			*/
+			font-size: 100%;
+		}
+
+		.icon-container{
+			.icon-number{
+				width:100%;
+			}
+		}
+	
+		
 
 		& > #logo-bool{
 			width:100%;
@@ -110,6 +154,10 @@ footer {
 
 	}
 	 
+}
+
+.reel-description{
+	border: 2px dashed red;
 }
 
 /* ---------------------
@@ -133,5 +181,7 @@ da rimuovere una volta concluso
 }
 
 /* --------------------- */
+
+
 
 
